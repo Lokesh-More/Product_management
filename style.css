@@ -1,0 +1,317 @@
+/* Custom CSS for the header section */
+
+header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover,
+  .navbar-nav .nav-link:focus {
+    color: #666;
+  }
+  
+  .nav-item.dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+/*  new navbar css*/
+/* CSS for Navbar */
+.navbar {
+    background-color: yellowgreen;
+    padding: 10px;
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar li a {
+    color: orange;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar li a:hover {
+    background-color: rgb(5, 1, 2);
+    color: black;
+  }
+  
+
+
+
+  .dropdown-item {
+    color: #941616;
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-item:hover,
+  .dropdown-item:focus {
+    color: #666;
+    background-color: #f8f8f8;
+  }
+  
+  .btn-1 {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-1:hover {
+    background-color: #666;
+  }
+  
+
+  /* Custom SCSS for the provided HTML sections */
+ header {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+}
+header .navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .navbar .navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+header .navbar .navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+header .navbar .navbar-nav .nav-link:hover, header .navbar .navbar-nav .nav-link:focus {
+    color: #666;
+}
+header .navbar .nav-item.dropdown .dropdown-menu {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+header .navbar .nav-item.dropdown .dropdown-menu .dropdown-item {
+    color: #333;
+    padding: 0.5rem 1rem;
+}
+header .navbar .nav-item.dropdown .dropdown-menu .dropdown-item:hover, header .navbar .nav-item.dropdown .dropdown-menu .dropdown-item:focus {
+    color: #666;
+    background-color: #f8f8f8;
+}
+.main-contact {
+    padding: 40px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+}
+.main-contact .contact-left .contact-content-wrapper {
+    color: #333;
+}
+.main-contact .contact-left .contact-content-wrapper h2 {
+    font-size: 24px;
+}
+.main-contact .contact-left .contact-content-wrapper h2 span {
+    font-weight: bold;
+}
+.main-contact .contact-left .contact-content-wrapper p {
+    font-size: 16px;
+}
+.main-contact .contact-left .contact-item {
+    margin-top: 20px;
+}
+.main-contact .contact-left .contact-item .contact-menu {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.main-contact .contact-left .contact-item .contact-menu span {
+    font-size: 20px;
+    margin-right: 10px;
+}
+.main-contact .contact-left .contact-item .contact-menu #font {
+    font-size: 16px;
+}
+.main-contact .contact-right .pic img {
+    width: 100%;
+    height: auto;
+}
+.product-management-section {
+    padding: 40px;
+}
+.product-management-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-management-section p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.product-management-section ul {
+    list-style-type: disc;
+    color: #666;
+    margin-left: 20px;
+}
+.product-management-section .product-management-image {
+    width: 100%;
+    height: auto;
+}
+.subscribe-section {
+    background-color: #f8f8f8;
+    padding: 40px;
+}
+.subscribe-section .subscribe-content h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.subscribe-section .subscribe-content p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.subscribe-section .subscribe-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.subscribe-section .subscribe-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.subscribe-section .subscribe-form button[type="submit"]:hover {
+    background-color: #666;
+}
+footer {
+   /* background-color: #de4d19;  */
+    background-color: #666;
+    padding-top: 20px;
+}
+.footer-container {
+    color: #fff;
+}
+.footer-container h6 {
+    color: #fff;
+}
+#hr-line {
+    border-color: #fff;
+}
+.social a {
+    color: #fff;
+}
+/*.footer-end {
+    background-color: #d07418;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 10px;
+}*/
+
+
+.footer-end {
+    /*background: -webkit-linear-gradient(0deg, #fa2424, #fb8721);
+    */
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px) {
+    .footer-container {
+        padding-right: 15px;
+        padding-left: 15px;
+   }
+}
+@media (min-width: 768px) {
+    .footer-container {
+        padding-right: 30px;
+        padding-left: 30px;
+   }
+}
+@media (min-width: 992px) {
+    .footer-container {
+        padding-right: 50px;
+        padding-left: 50px;
+   }
+}
+@media (max-width: 767px) {
+    .footer-container .row {
+        justify-content: center;
+   }
+    .footer-container .col-md-3 {
+        text-align: center;
+        margin-bottom: 30px;
+   }
+    .footer-container .col-md-3 h6 {
+        margin-bottom: 15px;
+   }
+    .footer-end {
+        text-align: center;
+   }
+}
+
+.footer-end {
+   /* background-color: #ffa500; */
+    background-color: f8f8f8;
+    padding: 10px;
+    text-align: center;
+}
+.footer-end-container {
+    display: flex;
+    justify-content: center;
+}
+.copywrite-text {
+    color: #777;
+    font-size: 0.9rem;
+    margin: 0;
+}
+.copywrite-text::before, .copywrite-text::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: #777;
+    vertical-align: middle;
+    margin: 0 10px;
+}
